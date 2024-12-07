@@ -1,0 +1,16 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/Highlighting/AnalysisEnabled/@EntryValue">VISIBLE_FILES</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=147478d4_002D4b60_002D4503_002Dbb64_002D595ebf3b95f1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from ProdutoTests.cs #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;ProjectFile&gt;F738325A-AA7D-4D78-82D8-BAD796A73336/f:ProdutoTests.cs&lt;/ProjectFile&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=163798e4_002Dc3bd_002D46be_002D94f3_002D0efccbd98af8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from ProdutoTests.cs #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;ProjectFile&gt;F738325A-AA7D-4D78-82D8-BAD796A73336/f:ProdutoTests.cs&lt;/ProjectFile&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6266dd11_002D7ae5_002D47dd_002Da8d1_002Dce4a2609ae0d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ProdutoTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::F738325A-AA7D-4D78-82D8-BAD796A73336::net8.0::NerdStore.Catalogo.Domain.Tests.ProdutoTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6b8ba017_002D1db9_002D4613_002Dabac_002D6e920facb661/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from ProdutoTests.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;ProjectFile&gt;F738325A-AA7D-4D78-82D8-BAD796A73336/f:ProdutoTests.cs&lt;/ProjectFile&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
