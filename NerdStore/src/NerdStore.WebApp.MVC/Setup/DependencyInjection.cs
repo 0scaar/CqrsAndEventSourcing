@@ -1,3 +1,4 @@
+using EventSourcing;
 using MediatR;
 using NerdStore.Catalogo.Application.Services;
 using NerdStore.Catalogo.Data;
@@ -5,6 +6,7 @@ using NerdStore.Catalogo.Data.Repository;
 using NerdStore.Catalogo.Domain;
 using NerdStore.Catalogo.Domain.Events;
 using NerdStore.Core.Communication.Mediator;
+using NerdStore.Core.Data.EventSourcing;
 using NerdStore.Core.Messages.CommonMessages.IntegrationEvents;
 using NerdStore.Core.Messages.CommonMessages.Notifications;
 using NerdStore.Pagamentos.AntiCorruption;
@@ -34,7 +36,11 @@ public static class DependencyInjection
 
         // Notifications
         services.AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler>();
-
+        
+        // Event Sourcing
+        services.AddSingleton<IEventStoreService, EventStoreService>();
+        services.AddSingleton<IEventSourcingRepository, EventSourcingRepository>();
+        
         // Catalogo
         services.AddScoped<IProdutoRepository, ProdutoRepository>();
         services.AddScoped<IProdutoAppService, ProdutoAppService>();
@@ -64,6 +70,7 @@ public static class DependencyInjection
         services.AddScoped<INotificationHandler<PagamentoRealizadoEvent>, PedidoEventHandler>();
         services.AddScoped<INotificationHandler<PedidoAtualizadoEvent>, PedidoEventHandler>();
         services.AddScoped<INotificationHandler<PedidoItemAdicionadoEvent>, PedidoEventHandler>();
+        services.AddScoped<INotificationHandler<PagamentoRecusadoEvent>, PedidoEventHandler>();
         
         // Pagamento
         services.AddScoped<IPagamentoRepository, PagamentoRepository>();

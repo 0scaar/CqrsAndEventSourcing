@@ -45,7 +45,17 @@ public class ProdutoRepository : IProdutoRepository
 
     public void Atualizar(Produto produto)
     {
-        _context.Produtos.Update(produto);
+        var existingEntity = _context.Produtos.Local.FirstOrDefault(p => p.Id == produto.Id);
+        if (existingEntity != null)
+        {
+            // Si ya está rastreada, puedes actualizar sus valores
+            _context.Entry(existingEntity).CurrentValues.SetValues(produto);
+        }
+        else
+        {
+            // Si no está rastreada, actualiza normalmente
+            _context.Produtos.Update(produto);
+        }
     }
 
     public void Adicionar(Categoria categoria)

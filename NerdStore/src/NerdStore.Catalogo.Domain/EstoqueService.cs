@@ -19,21 +19,8 @@ public class EstoqueService : IEstoqueService
     
     public async Task<bool> DebitarEstoque(Guid produtoId, int quantidade)
     {
-        var produto = await _produtoRepository.ObterPorId(produtoId);
-
-        if (produto == null) return false;
+        if (!await DebitarItemEstoque(produtoId, quantidade)) return false;
         
-        if (!produto.PossuiEstoque(quantidade)) return false;
-        
-        produto.DebitarEstoque(quantidade);
-        
-        // TODO: Parametrizar a quantidade de estoque baixo
-        if (produto.QuantidadeEstoque < 10)
-        { 
-            await _mediatorHandler.PublicarEvento(new ProdutoAbaixoEstoqueEvent(produto.Id, produto.QuantidadeEstoque));
-        }
-        
-        _produtoRepository.Atualizar(produto);
         return await _produtoRepository.UnitOfWork.Commit();
     }
 
@@ -64,7 +51,7 @@ public class EstoqueService : IEstoqueService
         // TODO: 10 pode ser parametrizavel em arquivo de configuração
         if (produto.QuantidadeEstoque < 10)
         {
-            await _mediatorHandler.PublicarEvento(new ProdutoAbaixoEstoqueEvent(produto.Id, produto.QuantidadeEstoque));
+            await _mediatorHandler.PublicarDomainEvent(new ProdutoAbaixoEstoqueEvent(produto.Id, produto.QuantidadeEstoque));
         }
 
         _produtoRepository.Atualizar(produto);

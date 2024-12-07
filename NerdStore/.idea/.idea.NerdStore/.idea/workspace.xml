@@ -32,6 +32,10 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/225dd19ef9e59a5b94de2bcd4b7b38cdca205bdfea4a7361ed03c5f79a36/INotification.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a1e830db66f4537520b48f395e1d155c5280a87c9832c95b2e918185764c773/INotificationHandler.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -40,28 +44,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.NerdStore.WebApp.MVC: http.executor&quot;: &quot;Run&quot;,
-    &quot;163798e4-c3bd-46be-94f3-0efccbd98af8.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.2655889&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.NerdStore.WebApp.MVC: http.executor": "Debug",
+    "163798e4-c3bd-46be-94f3-0efccbd98af8.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "XThreadsFramesViewSplitterKey": "0.2655889",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "http.proxy",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/oscarloma/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/oscarloma/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
-      &quot;/Users/oscarloma/Library/Application Support/Symbols/src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "/Users/oscarloma/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
+      "/Users/oscarloma/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
+      "/Users/oscarloma/Library/Application Support/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.NerdStore.WebApp.MVC: http">
     <configuration name="NerdStore.WebApp.MVC: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/NerdStore.WebApp.MVC/NerdStore.WebApp.MVC.csproj" />
@@ -109,6 +113,7 @@
       <workItem from="1732586531510" duration="42000" />
       <workItem from="1732586583020" duration="100671000" />
       <workItem from="1733452710766" duration="1261000" />
+      <workItem from="1733489686393" duration="18740000" />
     </task>
     <servers />
   </component>
@@ -123,155 +128,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/NerdStore.WebApp.MVC/Controllers/Admin/AdminProdutosController.cs</url>
-          <line>32</line>
-          <properties documentPath="$PROJECT_DIR$/src/NerdStore.WebApp.MVC/Controllers/Admin/AdminProdutosController.cs" containingFunctionPresentation="Method 'NovoProduto'">
-            <startOffsets>
-              <option value="898" />
-            </startOffsets>
-            <endOffsets>
-              <option value="922" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/NerdStore.WebApp.MVC/Controllers/CarrinhoController.cs</url>
-          <line>37</line>
-          <properties documentPath="$PROJECT_DIR$/src/NerdStore.WebApp.MVC/Controllers/CarrinhoController.cs" containingFunctionPresentation="Method 'AdicionarItem'">
-            <startOffsets>
-              <option value="1305" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1359" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/NerdStore.Vendas.Application/Commands/Handlers/PedidoCommandHandler.cs</url>
-          <line>24</line>
-          <properties documentPath="$PROJECT_DIR$/src/NerdStore.Vendas.Application/Commands/Handler/PedidoCommandHandler.cs" containingFunctionPresentation="Method 'Handle'" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/NerdStore.WebApp.MVC/Controllers/CarrinhoController.cs</url>
-          <line>49</line>
-          <properties documentPath="$PROJECT_DIR$/src/NerdStore.WebApp.MVC/Controllers/CarrinhoController.cs" containingFunctionPresentation="Method 'AdicionarItem'">
-            <startOffsets>
-              <option value="1811" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1832" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/NerdStore.Pagamentos.Business/Events/PagamentoEventHandler.cs</url>
-          <line>18</line>
-          <properties documentPath="$PROJECT_DIR$/src/NerdStore.Pagamentos.Business/Events/PagamentoEventHandler.cs" containingFunctionPresentation="Method 'Handle'">
-            <startOffsets>
-              <option value="610" />
-            </startOffsets>
-            <endOffsets>
-              <option value="982" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/NerdStore.Vendas.Application/Commands/Handlers/PedidoCommandHandler.cs</url>
-          <line>170</line>
-          <properties documentPath="$PROJECT_DIR$/src/NerdStore.Vendas.Application/Commands/Handlers/PedidoCommandHandler.cs" containingFunctionPresentation="Method 'Handle'">
-            <startOffsets>
-              <option value="6847" />
-            </startOffsets>
-            <endOffsets>
-              <option value="6876" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/NerdStore.Catalogo.Domain/Events/ProdutoEventHandler.cs</url>
-          <line>33</line>
-          <properties documentPath="$PROJECT_DIR$/src/NerdStore.Catalogo.Domain/Events/ProdutoEventHandler.cs" containingFunctionPresentation="Method 'Handle'">
-            <startOffsets>
-              <option value="1209" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1295" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/NerdStore.Pagamentos.Business/Services/PagamentoService.cs</url>
-          <line>26</line>
-          <properties documentPath="$PROJECT_DIR$/src/NerdStore.Pagamentos.Business/Services/PagamentoService.cs" containingFunctionPresentation="Method 'RealizarPagamentoPedido'">
-            <startOffsets>
-              <option value="1076" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1205" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/NerdStore.Vendas.Application/Commands/Handlers/PedidoCommandHandler.cs</url>
-          <line>238</line>
-          <properties documentPath="$PROJECT_DIR$/src/NerdStore.Vendas.Application/Commands/Handlers/PedidoCommandHandler.cs" containingFunctionPresentation="Method 'ValidarComando'">
-            <startOffsets>
-              <option value="9618" />
-            </startOffsets>
-            <endOffsets>
-              <option value="9641" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/NerdStore.Vendas.Data/MediatorExtension.cs</url>
-          <line>9</line>
-          <properties documentPath="$PROJECT_DIR$/src/NerdStore.Vendas.Data/MediatorExtension.cs" containingFunctionPresentation="Method 'PublicarEventos'">
-            <startOffsets>
-              <option value="265" />
-            </startOffsets>
-            <endOffsets>
-              <option value="421" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/NerdStore.WebApp.MVC/Controllers/CarrinhoController.cs</url>
-          <line>98</line>
-          <properties documentPath="$PROJECT_DIR$/src/NerdStore.WebApp.MVC/Controllers/CarrinhoController.cs" containingFunctionPresentation="Method 'AplicarVoucher'">
-            <startOffsets>
-              <option value="3275" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3347" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/src/NerdStore.Vendas.Application/Commands/Handlers/PedidoCommandHandler.cs</url>
-          <line>131</line>
-          <properties documentPath="$PROJECT_DIR$/src/NerdStore.Vendas.Application/Commands/Handlers/PedidoCommandHandler.cs" containingFunctionPresentation="Method 'Handle'">
-            <startOffsets>
-              <option value="5392" />
-            </startOffsets>
-            <endOffsets>
-              <option value="5421" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/src/NerdStore.WebApp.MVC/Controllers/CarrinhoController.cs</url>
           <line>119</line>
           <properties documentPath="$PROJECT_DIR$/src/NerdStore.WebApp.MVC/Controllers/CarrinhoController.cs" containingFunctionPresentation="Method 'IniciarPedido'">
@@ -282,7 +138,47 @@
               <option value="3989" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="15" />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/src/NerdStore.WebApp.MVC/Views/Carrinho/ResumoDaCompra.cshtml</url>
+          <line>12</line>
+          <properties documentPath="$PROJECT_DIR$/src/NerdStore.WebApp.MVC/Views/Carrinho/ResumoDaCompra.cshtml" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/src/NerdStore.Vendas.Application/Queries/PedidoQueries.cs</url>
+          <line>16</line>
+          <properties documentPath="$PROJECT_DIR$/src/NerdStore.Vendas.Application/Queries/PedidoQueries.cs" containingFunctionPresentation="Method 'ObterCarrinhoCliente'">
+            <startOffsets>
+              <option value="457" />
+            </startOffsets>
+            <endOffsets>
+              <option value="537" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/src/NerdStore.Vendas.Application/Commands/Handlers/PedidoCommandHandler.cs</url>
+          <line>203</line>
+          <properties documentPath="$PROJECT_DIR$/src/NerdStore.Vendas.Application/Commands/Handlers/PedidoCommandHandler.cs" containingFunctionPresentation="Method 'Handle'">
+            <startOffsets>
+              <option value="8318" />
+            </startOffsets>
+            <endOffsets>
+              <option value="8384" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

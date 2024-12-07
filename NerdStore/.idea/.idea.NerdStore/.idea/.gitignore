@@ -12,5 +12,4 @@
 /dataSources/
 /dataSources.local.xml
 # MacOs
-/.DS_Store
-**/.DS_Store
+.DS_Store
